@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<!--stylesheet information-->
+<link href="style.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Fjalla+One" rel="stylesheet">
+
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+<script type="text/javascript">
+/* this was a test, try another function.
+$(document).ready(function() {
+	$("li").click(function() {
+		$(this).hide();
+	});
+});
+*/
+$(document).ready(function() {
+$("#announcement").hide();
+$("#announcement").fadeIn(5000);
+});
+</script>
+
+  <head>
+    <title>T-shirt Order Form</title>
+  </head>
+    <body>
+    <div class="container">
+	    <h1>Nationwide Presents:</h1>
+	  <div id="announcement">
+	    <h2>Hackathon</h2>
+	  </div>
+	 </div> 
+	  <div id="intro">
+	  <p>Thank you for signing up for Nationwide's Hackathon. Please enter your name, e-mail address, phone number, and t-shirt size below. 
+	  <br />We will have your shirt at the registration table when you check in. Thank you and good luck!</p>
+	  </div>
+	  
+	<!--Leave these as a list for the moment, place hold until I can script in the input box and store-->
+	<ol>
+	  <li>First Name</li>
+	  <li>Last Name</li>
+	  <li>Email</li>
+	  <li>Phone Number</li>
+	  <li>T-shirt Size</li>
+	 </ol>
+	 
+<script>
+//alert("Javascript Test!");//
+//Not sure why I can't get the src to find my main.js like the style.css//
+</script>
+	 
+  </body>
+  
+</html>
